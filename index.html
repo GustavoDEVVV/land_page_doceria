@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet">
+
+
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +22,7 @@
     <nav>
         <a href="#">Produtos</a>
         <a href="#">Serviços</a>
-        <a id="button" href="#">Contato</a>
+        <a href="#">Contato</a>
     </nav>
 </header>
 
@@ -21,33 +31,87 @@
         <div class="texto">
             <h1>Seja Bem vindo</h1>
             <h1>Ao site oficial da</h1>
-            <h1>Sua loja</h1>
+            <h1 id="sua-loja">Nome da sua loja</h1>
         </div>
     
-        <img src="./assents/doces-de-chocolate-fundo-comida-doce-com-varios-recheios_84485-1886.avif" alt="">
+        <img src="./assents/modelo-cozinheira.png" alt="">
     </div>
 </section>
+
+<div class="titulo_p1">
+    <h1 class="titulo">Produtos</h1>
+    <p class="sumario">Veja nossas variedades de produtos!</p>
+</div>
 
 <section class="produtos">
     <div class="img-card">
         <img src="./assents/Salgados-para-festa-no-trabalho.jpg" alt="">
         <div class="texto-escondido">
-            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</h1>
+            <h1>Salgados</h1>
         </div>
     </div>
     <div class="img-card">
         <img src="./assents/images.jpg" alt="">
         <div class="texto-escondido">
-            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</h1>
+            <h1>Doces</h1>
         </div>
     </div>
     <div class="img-card">
         <img src="./assents/doces-de-chocolate-fundo-comida-doce-com-varios-recheios_84485-1886.avif" alt="">
         <div class="texto-escondido">
-            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</h1>
+            <h1>Cafés</h1>
         </div>
     </div>
 </section>
+
+<div class="titulo_p2">
+    <h1 class="titulo2">Os melhores produtos da casa</h1>
+    <p class="sumario_p2">Aqui estão os produtos mais vendidos do nosso estabelicmento </p>
+</div>
+
+<section class="mais_vendas">
+    <div class="card1">
+        <img src="./assents/doces-de-chocolate-fundo-comida-doce-com-varios-recheios_84485-1886 (1).avif" alt="">
+        <h1 class="titulo-card">Café</h1>
+        <p class="sub-card">Preço: 19,90$</p>
+        <p class="sub-card">ingredientes: café, acçucar, leite</p>
+        <p class="sub-card">Serve: 1 Pessoa</p>
+
+    </div>
+    <div class="card2">
+        <img src="./assents/images.jpg" alt="">
+        <h1 class="titulo-card">Café</h1>
+        <p class="sub-card">Preço: 19,90$</p>
+        <p class="sub-card">ingredientes: café, acçucar, leite</p>
+        <p class="sub-card">Serve: 1 Pessoa</p>
+    </div>
+    <div class="card3">
+        <img src="./assents/Salgados-para-festa-no-trabalho.jpg" alt="">
+        <h1 class="titulo-card">Café</h1>
+        <p class="sub-card">Preço: 19,90$</p>
+        <p class="sub-card">ingredientes: café, acçucar, leite</p>
+        <p class="sub-card">Serve: 1 Pessoa</p>
+    </div>
+</section>
+
+    <section class="form">
+        <h1 style="margin-top: 13%;">Quer contratar meu serviços?</h1>
+
+        <form
+        action="https://formspree.io/f/mzzpzlyp"
+        method="POST"
+      >
+        <label>
+        <h1>Seu email</h1>
+          <input type="email" name="email">
+        </label><br><br>
+        <label>
+          <h1>Envie sua mensagem</h1>
+          <textarea name="message"></textarea>
+        </label><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
 
 
 </body>
