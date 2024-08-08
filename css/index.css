@@ -20,15 +20,9 @@ header h1 {
 }
 
 a {
-
     text-decoration: none;
     padding: 0.5rem;
     color: black;
-}
-
-header nav {
-    position: absolute;
-    left: 70rem;
 }
 
 #button {
@@ -37,21 +31,74 @@ header nav {
     border-radius: 1rem;
 }
 
-.card_principal{
+.card_principal {
     display: flex;
     margin: auto;
-    width: 100rem;
-    height: 50rem;
+    width: 80%;
+    max-width: 100rem;
+    height: auto;
+    aspect-ratio: 2;
     border-radius: 2rem;
-    background-color: aqua;
+    background-color: #F8BBD0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
-.texto{
-    margin-left: 4rem;
-    margin-top: 7rem;
+.texto {
+    margin-left: 2rem;
 }
 
-.card_principal img{
+.card_principal img {
     width: 30rem;
     height: 30rem;
+}
+
+.produtos {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.img-card {
+    position: relative;
+    width: 30rem;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.texto-escondido {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.texto-escondido h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.img-card:hover .texto-escondido {
+    opacity: 1;
 }
