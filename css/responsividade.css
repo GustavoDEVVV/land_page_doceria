@@ -1,62 +1,94 @@
-@media(min-width: 320px) and (max-width: 720px){
+@media(min-width: 320px) and (max-width: 720px) {
 
-header{
-    margin-bottom: 10rem;
-}
+    header {
+        margin-bottom: 10rem;
+    }
 
-header h1{
-    font-size: 1.6rem;
-    margin-right: 0;
-    margin-left: 0;
-}
+    header h1 {
+        font-size: 1.6rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
 
-a{
-    font-size: 1.5rem;
-}
+    a {
+        font-size: 1.5rem;
+    }
 
-nav{
-    margin-left: 5rem;
-    margin-right: 0;
-}
+    nav {
+        margin-left: 5rem;
+        margin-right: 0;
+    }
 
-.card_principal{
-    width: 33rem;
-    height: 20rem;
-}
+    .card_principal {
+        width: 33rem;
+        height: 20rem;
+    }
 
-.texto h1{
-    font-size: 2rem;
-}
+    .texto{
+        margin-top: 2rem;
+    }
 
-.texto #sua-loja{
-    font-size: 1rem;
-}
+    .texto h1 {
+        font-size: 2rem;
+    }
 
-.card_principal img{
-    margin-left: 0rem;
-    width: 20rem;
-    margin-bottom: 10.6rem;
-}
+    .texto #sua-loja {
+        font-size: 1rem;
+    }
 
-.img-card{
-    width: 9rem;
-}
+    .card_principal img {
+        margin-left: 0rem;
+        width: 20rem;
+        margin-bottom: 10.6rem;
+    }
 
+    .img-card {
+        width: 9rem;
+    }
 
-.card1{
-    width: 10rem;
-}
+    .titulo-card {
+        display: none;
+    }
 
-.card2{
-    width: 10rem;
-}
+    .card1 {
+        width: 10rem;
+        height: 20rem;
+        padding: 1rem;
+    }
 
-.card3{
-    width: 10rem;
-}
+    .card2 {
+        width: 10rem;
+        height: 20rem;
+        padding: 1rem;
+    }
 
-.card1 img{
-    width: 9rem;
-}
+    .card3 {
+        width: 10rem;
+        height: 23rem;
+        padding: 1rem;
+    }
 
+    .card1 img {
+        width: 9rem;
+    }
+
+    .card2 img {
+        width: 9rem;
+    }
+
+    .card3 img {
+        width: 9rem;
+    }
+
+    .form textarea {
+        width: 17rem;
+    }
+
+    .form input{
+        width: 17rem;
+    }
+
+    .form h1{
+        font-size: 2rem;
+    }
 }
