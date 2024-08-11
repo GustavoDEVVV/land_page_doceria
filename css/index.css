@@ -92,6 +92,17 @@ a:hover{
     margin-left: 10rem;
 }
 
+ion-icon{
+    font-size: 2.2rem;
+    padding: 0.2rem;
+    transition: 0.5s;
+    color: #6F4E37;
+}
+
+ion-icon:hover{
+    color: #ffffff;
+}
+
 /* titulos */
 .titulo_p1{
     margin: 2rem;
@@ -204,6 +215,14 @@ a:hover{
     justify-content: space-evenly;
 }
 
+.mais_vendas h1{
+    font-family: "Pacifico", cursive;
+    color: #6F4E37;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
 .titulo-card{
     font-family: "Pacifico", cursive;
     font-size: 2rem;
@@ -218,7 +237,7 @@ a:hover{
 
 .card1{
     width: 25rem;
-    height: 40rem;
+    height: 30rem;
     background-color: rgba(241, 241, 241, 0.8);
     border: 1px solid #ffffff;
     border-radius: 1rem;
@@ -226,7 +245,6 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem;
     box-sizing: border-box;
     transition: 0.5s;
 }
@@ -238,7 +256,7 @@ a:hover{
 
 .card2{
     width: 25rem;
-    height: 40rem;
+    height: 30rem;
     background-color: rgba(241, 241, 241, 0.8);
     border: 1px solid #ffffff;
     font-family: "Pacifico", cursive;
@@ -260,7 +278,7 @@ a:hover{
 .card3{
     width: 25rem;
     font-family: "Pacifico", cursive;
-    height: 40rem;
+    height: 35rem;
     background-color: rgba(241, 241, 241, 0.8);
     border: 1px solid #ffffff;
     border-radius: 1rem;
@@ -299,16 +317,16 @@ a:hover{
 
 .form{
     display: flex;
+    margin-bottom: 10rem;
     gap: 4rem;
-    justify-content: right;
-    margin-right: 30rem;
+    justify-content: center;
     margin-top: 10rem;
   }
   
   .form h1{
-      color: #F8BBD0;
+      color: #6F4E37;
       font-size: 3rem;
-      font-family: "Poetsen One", sans-serif;
+      font-family: "Pacifico", cursive;
       font-weight: 400;
       font-style: normal;
   }
@@ -316,31 +334,31 @@ a:hover{
   .form textarea{
   
       width: 30rem;
-      height: 20rem;
+      height: 10rem;
       resize: none;
       background-color: transparent;
-      border: 2px solid black;
+      border: 2px solid #ffffff;
       border-radius: 1rem;
-      color: black;
-      font-family: "DM Sans", sans-serif;
+      color: #6F4E37;
+      font-family: "Bebas Neue", sans-serif;
       padding: 10px;
   }
   
   .form input{
       width: 30rem;
-      height: 3rem;
+      height: 1.5rem;
       background-color: transparent;
-      border: 2px solid black;
+      border: 2px solid #ffffff;
       border-radius: 1rem;
-      color: black;
-      font-family: "DM Sans", sans-serif;
+      color: #6F4E37;
+      font-family: "Bebas Neue", sans-serif;
       padding: 10px;
   }
   
   .form label h1{
-      color: #F8BBD0;
+      color: #6F4E37;
       font-size: 2.5rem;
-      font-family: "Poetsen One", sans-serif;
+      font-family: "Bebas Neue", sans-serif;
       font-weight: 400;
       font-style: normal;
       margin-bottom: 5px;
@@ -349,15 +367,16 @@ a:hover{
   .form button{
       background-color: transparent;
       border: none;
-      width: 60px;
+      margin-top: 2rem;
+      width: 9rem;
       border-radius: 1rem;
       color: black;
-      font-family: "DM Sans", sans-serif;
-      font-size: 1.7rem;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 2.2rem;
       transition: 1s;
   }
   
   .form button:hover{
-      border: #F8BBD0 1px solid;
-      color: #F8BBD0;
+      border: #ffffff 1px solid;
+      color: #6F4E37;
   }
